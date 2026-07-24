@@ -2,6 +2,11 @@ import { useState } from 'react';
 
 function UserProfileCard({ user }) {
   const [messageCount, setMessageCount] = useState(0);
+  const [isFavorited, setFavorite] = useState(false);
+
+  function toggle() {
+    setFavorite(isFavorited => !isFavorited)
+  }
 
   function handleSendMessage() {
     setMessageCount(messageCount + 1);
@@ -36,6 +41,16 @@ function UserProfileCard({ user }) {
         :
         <span>⚪ Offline
           <br />
+        </span>
+      }
+      {(user.isOnline) &&
+        <span>
+          <br />
+          {(isFavorited) ?
+            <button onClick={toggle}>★ Favorited</button>
+            :
+            <button onClick={toggle}>☆ Favorite</button>
+          }
         </span>
       }
 
