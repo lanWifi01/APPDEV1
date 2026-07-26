@@ -25,27 +25,38 @@ export function ProductCard({ product, onAddToCart }) {
                     (product.popular) && <span>⭐ Popular</span>
                 }
 
-                <button>Add to Cart</button>
+                <button onClick={onAddToCart}>Add to Cart</button>
             </div>
         </>
     );
 }
 
 export default function ShopApp() {
-
+    const [cartCount, setCartCount] = useState(0);
     function handleAddToCart() {
-
+        setCartCount(prev => prev+=1)
+    }
+    function resetCart() {
+        setCartCount(prev => prev = 0)
     }
 
     return (
         <div className="shop">
             <h1>Mini Fruit & Veg Stand</h1>
-
-            <p>CART STATUS HERE</p>
+            {(cartCount) ? 
+                <p>Number of items in cart: {cartCount}</p>
+                : 
+                <p>No items in cart</p>
+            }
+            <button onClick={resetCart}>Reset Cart</button>
 
             <div className="product-list">
-                {products.map(product => 
-                    <li>{product.title}</li>
+                {products.map(product =>
+                    <ProductCard
+                        key={product.id}
+                        product={product}
+                        onAddToCart={handleAddToCart}
+                    />
                 )}
             </div>
         </div>
