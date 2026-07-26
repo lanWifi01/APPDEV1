@@ -34,10 +34,14 @@ export function ProductCard({ product, onAddToCart }) {
 export default function ShopApp() {
     const [cartCount, setCartCount] = useState(0);
     function handleAddToCart() {
-        setCartCount(prev => prev+=1)
+        setCartCount(prev => prev += 1)
     }
-    function resetCart() {
-        setCartCount(prev => prev = 0)
+    function removeOne() {
+        if (cartCount === 0) {
+            setCartCount(prev => 0)
+        } else {
+            setCartCount(prev => prev -= 1)
+        }
     }
 
     return (
@@ -48,7 +52,7 @@ export default function ShopApp() {
                 : 
                 <p>No items in cart</p>
             }
-            <button onClick={resetCart}>Reset Cart</button>
+            <button onClick={removeOne}>Remove One</button>
 
             <div className="product-list">
                 {products.map(product =>
