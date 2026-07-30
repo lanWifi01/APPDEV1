@@ -1,0 +1,4 @@
+@[src/App.css] @[src/components/tracks/SongList.css] Don't make or remove a new file, 
+but check these files and modify them into a single mobile-first CSS layout inspired 
+by Spotify's UI. Make the design modern and futuristic. Use a comfortable, low-
+contrast dark mode to prevent eye strain.
