@@ -44,4 +44,15 @@ After editing, run node 03_functions.js
 **Reflection:**
 
 sa part na ito, nakita ko na kayang mag execute ng major changes ni antigravity. Kaya rin nito na i-explain ang code na binigay niya at i-summarize ang mga binago. Helpful ito dahil sa bawat changes na ginawa, hindi ka maa-out of track dahil sa hindi mo naintindihan. Pwede mo agad hingan ng explanation si agy.
+### 04_objects.js
+**Prompt:**
 
+Open @04_objects.js.
+
+Add another object myHobbies with, playing guitar, coding, reading manga, and a function explaining why it is my favorite.
+
+Before editing the file with the said changes, explain why an arrow function shouldn't work for an object.
+
+**Reflection:**
+
+Nakita ko sa part na ito na pwede ka rin magpa-explain ng mga talagang hindi mo maintindihan na functions or mga bagay na complicated lang para sayo, tulad na lang ng kung bakit hindi dapat nasa loob ang arrow function ng isang object. Kaya lang, isa sa mga na encounter kong problema ay kung paano niya inuulit ang mga ginawa niya ng nakaraan kahit hindi ko sinabi tulad ng pag execute niya ng node *file.js*.
