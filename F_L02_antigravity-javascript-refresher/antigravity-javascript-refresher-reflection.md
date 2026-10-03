@@ -56,3 +56,11 @@ Before editing the file with the said changes, explain why an arrow function sho
 **Reflection:**
 
 Nakita ko sa part na ito na pwede ka rin magpa-explain ng mga talagang hindi mo maintindihan na functions or mga bagay na complicated lang para sayo, tulad na lang ng kung bakit hindi dapat nasa loob ang arrow function ng isang object. Kaya lang, isa sa mga na encounter kong problema ay kung paano niya inuulit ang mga ginawa niya ng nakaraan kahit hindi ko sinabi tulad ng pag execute niya ng node *file.js*.
+### 05_arrays.js
+**Prompt:**
+
+For this part, I want you to read @05_arrays.js. Check the original and the modified array. Explain how the original arrayis changed into a new array and what function is used to modify the said array. Also explain how the map function works and also make a new array from the original function and use map for that function. Before editing the file, show me what changed first and ask for confirmation.
+
+**Reflection:**
+
+Nakita ko sa part na ito ang kahalagahan ng pagpapaexplain sa antigravity ng mga ginawa niyang code. Dahil as I've seen, minsan, may ginagawa siyang hindi mo sinabi base sa mga past instructions mo. Ginagawa niya ito dahil sa actions mo dati. Which means, you have to specify kung ano ang mga instructions mo at kung ano ang mga hindi niya dapat na gawin.
