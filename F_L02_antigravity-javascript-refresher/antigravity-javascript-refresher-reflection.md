@@ -64,3 +64,15 @@ For this part, I want you to read @05_arrays.js. Check the original and the modi
 **Reflection:**
 
 Nakita ko sa part na ito ang kahalagahan ng pagpapaexplain sa antigravity ng mga ginawa niyang code. Dahil as I've seen, minsan, may ginagawa siyang hindi mo sinabi base sa mga past instructions mo. Ginagawa niya ito dahil sa actions mo dati. Which means, you have to specify kung ano ang mga instructions mo at kung ano ang mga hindi niya dapat na gawin.
+### 06_control_structures.js
+**Prompt:**
+
+Open @06_control_structures.js.
+
+Check the if-else block for grades, then intentionally write a simple error inside the if-else block, then explain the error.
+After doing so, remove the changes and explain how removing those changes can debug the bugged code.
+
+**Reflection:**
+
+Nakita ko sa part na ito na kayang mag debug and mag hanap ng errors ni antigravity, which is helpful dahil minsan, hindi nakikita ang error sa mga code. However, may napansin akong medyo delikadong parte, dahil sa prompt, nakita ko na sinunod pa rin ni antigravity ang sinabi kong gawin niyang error. Kaya kailangan talagang maging masuri mo sa pag command at dapat specified ang mga instructions.
+
