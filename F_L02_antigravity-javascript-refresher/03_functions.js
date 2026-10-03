@@ -1,13 +1,13 @@
-function greet(name) {
+const greet = (name) => {
   return "Hello, " + name
 }
 
-const square = (num) => {
+function square(num) {
   return num * num
 }
 
 function calculator(a, b) {
-  return { sum: a + b, product: a * b }
+  return { sum: a + b, product: a * b, difference: a - b, quotient: a / b }
 }
 
 console.log(greet("Dylan"))

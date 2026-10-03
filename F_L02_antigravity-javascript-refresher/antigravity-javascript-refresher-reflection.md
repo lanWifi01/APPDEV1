@@ -30,3 +30,18 @@ After that tell me how this can be used in real world examples.
 **Reflection:**
 
 Natutunan ko sa part na ito na kayang kaya pala ni antigravity basahin ang code na ginawa mo o ang code ng iba at i-explain ang mga contents nito ng hindi binabago ang code mo. Isa itong useful tool para sa mga developer o di kaya sa ibang mga IT related professions upang mas maintindihan nila ang nangyayari sa project at hindi lamang basta basta copy paste o kaya naman ay hindi na sila matatagalan kaka basa ng napakahabang directories and files para lamang maintindihan ang simpleng code. Pwede na agad ipa-explain sa agy.
+### 03_functions.js
+**Prompt:**
+
+Don't change @[02_variables.js] anymore instead, I want you to read @[03_functions.js]. Based from the new file that you have read, implement the following instructions:
+  
+- change greet(name) into an arrow function
+- change square(num) into a function declaration
+- add division and subtraction into the function calculator(a, b)
+  
+After editing, run node 03_functions.js
+
+**Reflection:**
+
+sa part na ito, nakita ko na kayang mag execute ng major changes ni antigravity. Kaya rin nito na i-explain ang code na binigay niya at i-summarize ang mga binago. Helpful ito dahil sa bawat changes na ginawa, hindi ka maa-out of track dahil sa hindi mo naintindihan. Pwede mo agad hingan ng explanation si agy.
+
