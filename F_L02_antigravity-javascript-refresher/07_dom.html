@@ -1,15 +1,31 @@
-<button id="changeColorBtn">Change Background</button>
-<p id="message">This paragraph will update in 2 seconds.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Practice</title>
+</head>
+<body>
 
-<script>
-  const button = document.getElementById("changeColorBtn");
-  button.addEventListener("click", () => {
-    const color = prompt("What color should the background be?");
-    document.body.style.backgroundColor = color;
-  });
+  <button id="changeColorBtn">Change Background</button>
+  <p id="message">This paragraph will update in 2 seconds.</p>
 
-  const message = document.getElementById("message");
-  setTimeout(() => {
-    message.textContent = "This paragraph updated itself after 2 seconds!";
-  }, 2000);
-</script>
+  <script>
+    const button = document.getElementById("changeColorBtn");
+    button.addEventListener("click", () => {
+      const color = prompt("What color should the background be?");
+      if (color) {
+        document.body.style.backgroundColor = color;
+      } else {
+        alert("No color entered. Please try again.");
+      }
+    });
+
+    const message = document.getElementById("message");
+    setTimeout(() => {
+      message.textContent = "This paragraph updated itself after 2 seconds!";
+    }, 2000);
+  </script>
+
+</body>
+</html>

@@ -75,4 +75,17 @@ After doing so, remove the changes and explain how removing those changes can de
 **Reflection:**
 
 Nakita ko sa part na ito na kayang mag debug and mag hanap ng errors ni antigravity, which is helpful dahil minsan, hindi nakikita ang error sa mga code. However, may napansin akong medyo delikadong parte, dahil sa prompt, nakita ko na sinunod pa rin ni antigravity ang sinabi kong gawin niyang error. Kaya kailangan talagang maging masuri mo sa pag command at dapat specified ang mga instructions.
+### 07_dom.html
+**Prompt:**
 
+Open @[07_dom.html], Before modifying, explain:
+  
+- Inspect the html file
+- Show what is lacking
+- Suggest what should be changed and what should be added
+
+Ask before executing the suggested changes and explain how it is important
+
+**Reflection:**
+
+Natututunan ko sa part na ito ang kahalagahan ng pagpapacheck muna ng mga kailangan na mabago bago mag update ng code. Nung tinest ko ang prompt at tanungin si agy na ipaita ang kulang sa code, naibigay niya ito. Isa itong mahalagang bagay sa prompting at pagpapagawa ng code sa ai kasi kailangan mong malaman kung san ka lacking.
