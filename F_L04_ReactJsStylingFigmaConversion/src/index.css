@@ -15,3 +15,13 @@ body {
   display: grid;
   place-items: center;
 }
+
+/* ============================================================
+   RESPONSIVE — Mobile body padding  (≤ 599px)
+   ============================================================ */
+@media (max-width: 599px) {
+  body {
+    padding: 16px 0;
+    align-items: start;
+  }
+}
