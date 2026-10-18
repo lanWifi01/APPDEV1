@@ -1,9 +1,11 @@
+@import url("../../root.css");
+
 .login {
     display: flex;
     width: 86vw;
     height: 82vh;
     min-height: 600px;
-    background: #a9c0f0;
+    background: var(--tertiary-color);
     overflow: hidden;
 }
 
@@ -18,15 +20,15 @@
 
 .tagline {
     align-self: flex-start;
-    font-size: 32px;
+    font-size: var(--font-size-lg);
     font-weight: 300;
     line-height: 1.25;
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .tagline strong {
     font-weight: 700;
-    color: #5b86e5;
+    color: var(--primary-color);
 }
 
 .logo {
@@ -38,9 +40,9 @@
 }
 
 .link {
-    font-size: 16px;
+    font-size: var(--font-size-sm);
     letter-spacing: 1px;
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 /* ---------- Right panel ---------- */
@@ -49,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: var(--secondary-color);
     border-radius: 60px 0 0 60px;
 }
 
@@ -59,7 +61,7 @@
 }
 
 .form h2 {
-    font-size: 28px;
+    font-size: var(--font-size-md);
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 110px;
@@ -74,7 +76,7 @@
     border-bottom: 1px solid #333;
     outline: none;
     font-family: inherit;
-    font-size: 16px;
+    font-size: var(--font-size-sm);
     letter-spacing: 1px;
 }
 
@@ -83,7 +85,7 @@
 }
 
 .form input:focus {
-    border-bottom-color: #5b86e5;
+    border-bottom-color: var(--primary-color);
 }
 
 .form button {
@@ -92,10 +94,10 @@
     margin-top: 16px;
     border: none;
     border-radius: 8px;
-    background: #5b86e5;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     font-family: inherit;
-    font-size: 16px;
+    font-size: var(--font-size-sm);
     font-weight: 700;
     letter-spacing: 1px;
     cursor: pointer;
@@ -104,12 +106,12 @@
 .signup {
     margin-top: 24px;
     text-align: center;
-    font-size: 16px;
+    font-size: var(--font-size-sm);
     letter-spacing: 1px;
 }
 
 .signup a {
-    color: #5b86e5;
+    color: var(--primary-color);
     font-weight: 700;
     text-decoration: none;
 }
